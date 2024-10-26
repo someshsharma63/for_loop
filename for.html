@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For loop</title>
+  </head>
+  <body>
+    <script>
+      //     for(let i=10;i<=1000;i++)
+      // {
+      //     console.log(i);
+      // }
+
+      // ---------------
+
+      // for(var i=0;i<=50;i++)
+      // {
+      //     document.write("my name is somesh");
+      //     document.write("<br>");
+      // }
+
+      // ------------------------
+
+      // for(let i=1;i<=10;i++)
+      // {
+      // //    let multiply= i*10;
+      // //    console.log(multiply);
+      // console.log(i*10);
+
+      // }
+      // ----------------------
+
+      // for(let i=1;i<=10;i++)
+      // {
+      //     console.log("10" + "*" +i+"=" +10*i)
+      // }
+      // --------------------------
+
+      // for(let i=30;i<=80;i++)
+      // {
+      //     if(i%2===1)
+      // {
+      //     console.log(i+" is odd number");
+      // }
+      // }
+
+      // ---------------------
+
+      // for(let i=0;i<=1000;i++)
+      // {
+      //     if(i>=100 && i<=200)
+      // {
+      //     continue
+      // }
+      // else if(i>=800 && i<=900)
+      // {
+      //     continue
+      // }
+      // console.log(i)
+      // }
+      // ---------------------
+
+      // ------------------
+      // sum of starting 10 number by using for loop
+
+      //  let sum=0;
+
+      //  for(let i=0;i<=10;i++)
+      //  {
+      //     sum=sum+i
+      //  }
+      //  console.log('the sum of starting ten number is '+sum)
+
+      // ------------------
+
+      //     Write a JavaScript for loop that iterates from 0 to 15. For each iteration, it checks if the current number is odd or even, and displays a message on the screen.
+      // Sample Output :
+      // "0 is even"
+      // "1 is odd"
+      // "2 is even"
+
+      //     for(let i=0;i<=15;i++)
+      // {
+      //     if(i%2===0)
+      // {
+      //     console.log(i+" is even number");
+      // }
+      // else if(i%2===1)
+      // {
+      //     console.log(i+" is odd number");
+      // }
+      // }
+      // ---------------------------
+
+      // Write a JavaScript program that iterates integers from 1 to 100. But for multiples of three print "Fizz" instead of the number and for multiples of five print "Buzz". For numbers multiples of both three and five print "FizzBuzz"
+
+      //  for(let i=1;i<=100;i++)
+      // {
+      //     if(i%3==0 && i%5==0)
+      // {
+      //  document.write(i," fizzbuzz")
+      //  document.write("<br>")
+      // }
+      //     else if(i%3===0)
+      // {
+      //     document.write(i," fizz")
+      //     document.write("<br>")
+      // }
+      // else if(i%5===0)
+      // {
+      //     document.write(i," buzz")
+      //     document.write("<br>")
+      // }
+      // }
+
+      // ---------------------------
+
+      // Write a JavaScript program to sum 3 and 5 multiples under 100
+
+      // let sum=0;
+
+      // for(let i=0;i<=100;i++)
+      // {
+      //     if(i%3===0 & i%5===0)
+      // {
+      //     sum=sum+i
+
+      // }
+
+      // }
+      // console.log(sum);
+
+      // ---------------------
+
+      //     let string=prompt("Enter your string")
+      //     let rev = "";
+
+      // for (let i = string.length - 1; i >= 0; i--) {
+      //     // reversed += original[i];
+      //     rev=rev+string[i]
+      // }
+      // console.log(rev);
+
+      // ------------------------
+      //     let n=5;
+
+      //  for(let i=1;i<=n;i++)
+      // {
+      //     for(let j=1;j<=i;j++)
+      // {
+      //     document.write("*");
+      // }
+      // document.write("<br>")
+      // }
+      // -----------------------
+
+      // for(let i=1;i<=5;i++)
+      // {
+      //     for(j=1;j<=5;j++)
+      // {
+      //     document.write('*');
+      // }
+      // document.write("<br>")
+      // }
+      // ---------------------
+
+      // 54321
+      // 4321
+      // 321
+      // 21
+      // 1
+
+      // for(let i=5;i>=1;i--)
+      // {
+      //   for(let j=i;j>=1;j--){
+      //     document.write(j)
+      //   }
+      //   document.write("<br>");
+      // }
+
+      // 54321
+      // 5432
+      // 543
+      // 54
+      // 5
+
+      // for(let i=1;i<=5;i++){
+      //     for(let j=5;j>=i;j--){
+      //         document.write(j);
+      //     }
+      //     document.write("<br>")
+
+      // }
+
+      //   console.log(1 + 2 + "Apples");
+      //   console.log("1" + "2" + "Apples" + 3 + 4);
+
+      //   const name = "Aadi";
+      //   console.log(`Hello my name is ${name}`); //TEMPLATE LITERAL
+
+      // HOISTING: variable declarations with var are hoisted, declarations with let & const are not. Function definitions are also hoisted.
+
+      // Taking variable declarations & function definitions to the top of the scope is called as hoisting
+
+      //   console.log(a);
+      //   var a = 5;
+
+      //   console.log(fullName());
+      //   function fullName() {
+      //     return "Virat Kohli";
+      //   }
+
+      //   console.log(a);
+      //   var a = 5;
+      //   func();
+
+      //   function func() {
+      //     console.log(a);
+      //     a = 10;
+      //   }
+
+      //   console.log(fun);
+      //   function fun() {
+      //     console.log("this is function");
+      //   }
+      //   var fun = "this is variable";
+
+      //   console.log(a);
+      //   var a = 5;
+      //   function f1() {
+      //     var a = 10;
+      //     console.log(a);
+      //     function f2() {
+      //       var a = 20;
+      //       console.log(a);
+      //     }
+      //     f2();
+      //   }
+      //   f1();
+      //   console.log(a);
+
+      //   const str = "Diwali is here";
+
+      // console.log(str.slice(1,5))
+      //   const a = str.slice(1, 5).length;
+      //   const b = str.slice(6, 10).length;
+      //   console.log(a + b);
+
+      const str = "Diwali is here";
+      //   console.log(str.lastIndexOf("e") + str.indexOf("i"));
+      //   console.log(str.slice(-10, -1));
+
+      let a = str.split(" ").length++;
+      console.log(++a);
+    </script>
+  </body>
+</html>
